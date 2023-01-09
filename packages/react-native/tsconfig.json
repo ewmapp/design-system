@@ -1,4 +1,0 @@
-{
-  "extends": "@ewmapp/ts-config/react-native.json",
-  "include": ["src"]
-}
