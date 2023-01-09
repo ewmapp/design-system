@@ -84,3 +84,15 @@ npm i -D @changesets/cli
 # AND
 npx changeset init
 ```
+
+## Create React Native Package
+
+Create folder `react-native`
+
+```bash
+npm init -y
+# and
+npm i -D typescript
+# and
+npm i -D tsup
+```
