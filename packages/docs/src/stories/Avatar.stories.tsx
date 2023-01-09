@@ -6,7 +6,7 @@ export default {
   component: AvatarStory,
   args: {
     src: `https://github.com/diego3g.png`,
-    alt: `Name`,
+    alt: `Name Image`,
     size: 'lg'
   }
 } as Meta<AvatarStoryProps>
