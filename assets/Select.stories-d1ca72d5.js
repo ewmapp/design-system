@@ -1,0 +1,2 @@
+import{S as t,B as e}from"./index-30a4c94c.js";import{j as o}from"./jsx-runtime-c12679df.js";import"./index-6c06fbd0.js";import"./es.object.get-own-property-descriptor-3a7d61f2.js";import"./index-adc65ea8.js";const n={title:"Form/Select",component:t,args:{},argTypes:{onSelect:{action:"selected"}},decorators:[r=>o(e,{children:r()})]},p={},l=["Primary"];export{p as Primary,l as __namedExportsOrder,n as default};
+//# sourceMappingURL=Select.stories-d1ca72d5.js.map
