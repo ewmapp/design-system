@@ -28,6 +28,7 @@
 
 - [x] Typescript package
 - [x] Tsup package
+- [x] Change Sets Monorepo
 
 ## DS Tokens
 
@@ -46,6 +47,8 @@ npm i -D typescript
 npm i -D tsup
 npm i polished
 npm i -D turbo@latest
+npm i -D @storybook/storybook-deployer
+npm i -D @changesets/cli
 ```
 
 ## Radix UI
@@ -72,4 +75,12 @@ npm install @radix-ui/react-select
 
 ```bash
 npm i phosphor-react
+```
+
+## Change Sets Monorepo
+
+```bash
+npm i -D @changesets/cli
+# AND
+npx changeset init
 ```
