@@ -26,18 +26,18 @@
 
 ## Tools
 
-- [ ] Typescript package
-- [ ] Tsup package
+- [x] Typescript package
+- [x] Tsup package
 
 ## DS Tokens
 
-- [ ] Colors
-- [ ] Spces
-- [ ] Radii
-- [ ] Fonts
-- [ ] Font-sizes
-- [ ] Font-weights
-- [ ] Line-heights
+- [x] Colors
+- [x] Spces
+- [x] Radii
+- [x] Fonts
+- [x] Font-sizes
+- [x] Font-weights
+- [x] Line-heights
 
 ## Installs
 
