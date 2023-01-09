@@ -1,0 +1,253 @@
+import { Meta } from '@storybook/addon-docs'
+import { ArrowRight } from 'phosphor-react'
+import {
+  AvatarStory,
+  Button,
+  Box,
+  Checkbox,
+  Code,
+  Heading,
+  Text,
+  TextArea,
+  TextInput
+} from '@ewmapp/react'
+
+<Meta title="Home" />
+
+# EWM UI
+
+EWM Design System
+
+<Box css={{ marginTop: '$3', marginBottom: '$3' }}>
+  <Heading size="lg" css={{ marginBottom: '$2' }}>
+    This Default H2 Heading
+  </Heading>
+  <Text as="p">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
+    perspiciatis assumenda, officia vitae ducimus excepturi possimus veniam
+    magnam error consequatur dicta. Quod, veniam dicta! At corrupti impedit ut
+    iste sed?
+  </Text>
+
+  <Box
+  css={{
+    all: 'unset',
+    marginTop: '$5',
+    display: 'flex',
+    flexDirection: 'column ',
+    gap: '$2'
+  }}
+>
+  <Text>Sample code:</Text>
+  <Code>
+    {'<Box>'}
+    {'\n'}
+    {'  <Heading size="lg">'}
+    {'\n'}
+    {'    This Default H2 Heading'}
+    {'\n'}
+    {'  </Heading>'}
+    {'\n'}
+    {'  <Text as="p">'}
+    {'\n'}
+    {'    Lorem ipsum dolor sit amet cons...'}
+    {'\n'}
+    {'  </Text>'}
+    {'\n'}
+    {'</Box>'}
+    {'\n'}
+  </Code>
+</Box>
+</Box>
+
+<Box css={{ marginTop: '$3', marginBottom: '$3' }}>
+  <Heading size="lg" css={{ marginBottom: '$2' }}>
+    Buttons
+  </Heading>
+  <Text as="p" css={{ marginBottom: '$3' }}>
+    EWM UI includes several predefined button styles
+  </Text>
+  <Box css={{ all: 'unset', display: 'flex', flexWrap: 'wrap', gap: '$2' }}>
+    <Button variant="primary">Primary</Button>
+    <Button variant="secondary">Secondary</Button>
+    <Button variant="success">Success</Button>
+    <Button variant="danger">Danger</Button>
+    <Button variant="warning">Warning</Button>
+    <Button variant="info">Info</Button>
+    <Button variant="light">Light</Button>
+    <Button variant="dark">Dark</Button>
+    <Button variant="link">Link</Button>
+  </Box>
+  <Box
+    css={{
+      all: 'unset',
+      marginTop: '$5',
+      display: 'flex',
+      flexDirection: 'column ',
+      gap: '$2'
+    }}
+  >
+    <Text>Sample code:</Text>
+    <Code>
+      {'<Button variant="primary">Primary</Button>'}
+      {'\n'}
+      {'<Button variant="secondary">Secondary</Button>'}
+      {'\n'}
+      {'<Button variant="success">Success</Button>'}
+      {'\n'}
+      {'<Button variant="danger">Danger</Button>'}
+      {'\n'}
+      {'<Button variant="warning">Warning</Button>'}
+      {'\n'}
+      {'<Button variant="info">Info</Button>'}
+      {'\n'}
+      {'<Button variant="light">Light</Button>'}
+      {'\n'}
+      {'<Button variant="dark">Dark</Button>'}
+      {'\n'}
+      {'<Button variant="link">Link</Button>'}
+      {'\n'}
+    </Code>
+  </Box>
+  <Box css={{ all: 'unset' }}>
+    <Heading size="sm" css={{ marginTop: '$6', marginBottom: '$3' }}>
+      Sizes
+    </Heading>
+    <Box css={{ all: 'unset', display: 'flex', gap: '$2' }}>
+      <Button variant="primary" size="sm">
+        Small
+      </Button>
+      <Button variant="primary" size="md">
+        Medium
+      </Button>
+      <Button variant="primary" size="lg">
+        Large
+      </Button>
+    </Box>
+  </Box>
+  <Box
+    css={{
+      all: 'unset',
+      marginTop: '$5',
+      display: 'flex',
+      flexDirection: 'column ',
+      gap: '$2'
+    }}
+  >
+    <Text>Sample code:</Text>
+    <Code>
+      {'<Button size="sm">Small</Button>'}
+      {'\n'}
+      {'<Button size="md">Medium</Button>'}
+      {'\n'}
+      {'<Button size="lg">Large</Button>'}
+      {'\n'}
+    </Code>
+  </Box>
+  <Box css={{ all: 'unset' }}>
+    <Heading size="sm" css={{ marginTop: '$6', marginBottom: '$3' }}>
+      Types
+    </Heading>
+    <Box css={{ all: 'unset', display: 'flex', gap: '$2' }}>
+      <Button variant="primary">Primary</Button>
+      <Button variant="primary" disabled disable>
+        Disabled
+      </Button>
+    </Box>
+  </Box>
+  <Box css={{ all: 'unset' }}>
+    <Box css={{ all: 'unset', display: 'flex', gap: '$2', marginTop: '$3' }}>
+      <Button outlined>Outline</Button>
+      <Button outlined disabled disable>
+        Disabled
+      </Button>
+    </Box>
+  </Box>
+  <Box css={{ all: 'unset' }}>
+    <Box css={{ all: 'unset', display: 'flex', gap: '$2', marginTop: '$3' }}>
+      <Button outlined>Icon <ArrowRight weight="bold" /></Button>
+      <Button outlined disabled disable>Disabled<ArrowRight weight="bold" /></Button>
+    </Box>
+  </Box>
+  <Box
+    css={{
+      all: 'unset',
+      marginTop: '$5',
+      display: 'flex',
+      flexDirection: 'column ',
+      gap: '$2'
+    }}
+  >
+    <Text>Sample code:</Text>
+    <Code>
+      {'<Button variant="primary" disabled disable>Disabled</Button>'}
+      {'\n'}
+      {'<Button outlined disabled disable>Disabled</Button>'}
+      {'\n'}
+      {'<Button outlined disabled disable>Disabled<ArrowRight weight="bold" /></Button>'}
+      {'\n'}
+    </Code>
+
+  </Box>
+</Box>
+
+<Box css={{ marginTop: '$3', marginBottom: '$3' }}>
+  <Heading size="lg" css={{ marginBottom: '$2' }}>
+    Form
+  </Heading>
+  <Text as="p" css={{ marginBottom: '$4' }}>
+    EWM UI Inputs Form
+  </Text>
+  <Box
+    as="label"
+    css={{
+      all: 'unset',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '$2',
+      marginBottom: '$4'
+    }}
+  >
+    <Text size="sm">Label Text Input</Text>
+    <TextInput placeholder="Type your text" css={{ width: '100%,' }} />
+  </Box>
+  <Box
+    as="label"
+    css={{ all: 'unset', display: 'flex', flexDirection: 'column', gap: '$2' }}
+  >
+    <Text size="sm">Label Text Area</Text>
+    <TextArea placeholder="Type your text" css={{ width: '100%,' }} />
+  </Box>
+  <Box
+    css={{
+      all: 'unset',
+      display: 'flex',
+      flexDirection: 'row',
+      gap: '$2',
+      marginTop: '$5'
+    }}
+  >
+    <Checkbox />
+    <Text size="sm">This text for checkbox</Text>
+  </Box>
+
+  <Box
+    as="label"
+    css={{
+      all: 'unset',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '$2',
+      marginTop: '$5'
+    }}
+  >
+    <Button variant="primary">Primary</Button>
+  </Box>
+</Box>
+
+<Box css={{ display: 'flex', gap: '$2', alignItems: 'center' }}>
+  <AvatarStory src="https://github.com/diego3g.png" size="sm" />
+  <AvatarStory src="https://github.com/diego3g.png" size="md" />
+  <AvatarStory src="https://github.com/diego3g.png" size="lg" />
+  <AvatarStory src="https://github.com/diego3g.png" size="3xl" />
+</Box>
