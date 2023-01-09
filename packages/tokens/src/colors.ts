@@ -86,4 +86,6 @@ export const colors = {
   yellow700: '#997404',
   yellow800: '#664d03',
   yellow900: '#332701',
+
+  test: '#fff'
 }
