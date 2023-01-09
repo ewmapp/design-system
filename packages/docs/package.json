@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
-    "deploy-storybook": "NODE_OPTIONS=--openssl-legacy-provider storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
